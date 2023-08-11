@@ -1,27 +1,42 @@
-# React + TypeScript + Vite
+<div align="center">
+   <h3>React + Redux + Zustand</h3>
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+   <a href="https://www.instagram.com/aurigod97/">
+      <img alt="Aurino Junior" src="https://img.shields.io/badge/-aurigod97-0390fc?style=flat&logo=Instagram&logoColor=white&color=blue" />
+   </a>
+    <a href="https://www.linkedin.com/in/aurino-junior-7718a4158/">
+      <img alt="Aurino Junior" src="https://img.shields.io/badge/-Aurino%20Junior-0390fc?style=flat&logo=Linkedin&logoColor=white&color=blue" />
+   </a>
+</p>
 
-Currently, two official plugins are available:
+📍 **Conteúdo**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Contexto](#blue_book-contexto)
+- [Tecnologias](#computer-tecnologias)
+- [Iniciando o projeto](#video_game-iniciando-o-projeto)
+- [Licença](#page_with_curl-licença)
 
-## Expanding the ESLint configuration
+## :blue_book: Contexto
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Projeto criado no curso de react+redux+zustand da Rocketseat 🔥
 
-- Configure the top-level `parserOptions` property like this:
+## :computer: Tecnologias
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+- React
+- Typescript
+- Redux
+- Tailwind
+- lucide-react
+- React player
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## :video_game: Iniciando o projeto
+
+1. Clone o repositorio.
+2. `npm install`
+3. `npm run dev` a aplicação irá iniciar em `http://localhost:5173/`
+
+## :page_with_curl: Licença
+
+MIT
