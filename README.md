@@ -1,5 +1,5 @@
 <div align="center">
-   <h3>React + Redux + Zustand</h3>
+   <h2>React + Redux + Zustand</h2>
 </div>
 
 <p align="center">
