@@ -29,7 +29,9 @@ export function Module({ title, amountOfLessons, moduleIndex }: IModuleProps) {
     }
   );
 
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(
+    currentModuleIndex === moduleIndex ? true : false
+  );
 
   function handleOpenOrClosedModule() {
     setIsOpen(!isOpen);
