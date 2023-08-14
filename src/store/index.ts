@@ -1,8 +1,12 @@
 import { configureStore } from "@reduxjs/toolkit";
 import { TypedUseSelectorHook, useSelector } from "react-redux";
 
+import { player } from "./slices/player";
+
 export const store = configureStore({
-  reducer: {},
+  reducer: {
+    player,
+  },
 });
 
 // Retorna o tipo da minha função store, logo volta o tipo do meu global state (store)

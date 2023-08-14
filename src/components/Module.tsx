@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { ChevronDown } from "lucide-react";
 import { Lesson } from "./Lesson";
+import { useAppSelector } from "../store";
 
 interface IModuleProps {
   moduleIndex: number;
@@ -9,6 +10,10 @@ interface IModuleProps {
 }
 
 export function Module({ title, amountOfLessons, moduleIndex }: IModuleProps) {
+  const lessons = useAppSelector(
+    (state) => state.player.course.modules[moduleIndex].lessons
+  );
+
   const [isOpen, setIsOpen] = useState(false);
 
   function handleOpenOrClosedModule() {
@@ -39,9 +44,9 @@ export function Module({ title, amountOfLessons, moduleIndex }: IModuleProps) {
 
       {isOpen && (
         <nav className="relative flex flex-col gap-4 p-6">
-          <Lesson title="Fundamentos do redux" duration="9:13" />
-          <Lesson title="Fundamentos do redux" duration="9:13" />
-          <Lesson title="Fundamentos do redux" duration="9:13" />
+          {lessons.map(({ title, duration, id }) => (
+            <Lesson key={id} title={title} duration={duration} />
+          ))}
         </nav>
       )}
     </div>
