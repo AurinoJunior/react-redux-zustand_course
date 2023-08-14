@@ -22,7 +22,7 @@
 
 Projeto criado no curso de react+redux+zustand da Rocketseat 🔥
 
-Versão do mesmo projeto usando Redux https://github.com/AurinoJunior/react-zustand_course
+Versão do mesmo projeto usando Zustand https://github.com/AurinoJunior/react-zustand_course
 
 ## :computer: Tecnologias
 
