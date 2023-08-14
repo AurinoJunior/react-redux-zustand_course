@@ -37,7 +37,8 @@ Versão do mesmo projeto usando Zustand https://github.com/AurinoJunior/react-zu
 
 1. Clone o repositorio.
 2. `npm install`
-3. `npm run dev` a aplicação irá iniciar em `http://localhost:5173/`
+3. `npm run server` o servidor da api irá iniciar em `http://localhost:3000/`
+4. `npm run dev` a aplicação irá iniciar em `http://localhost:5173/`
 
 ## :page_with_curl: Licença
 
